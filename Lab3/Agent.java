@@ -3,13 +3,11 @@ public class Agent implements CommonFunctions {
     private int id;
     private String name;
 
-    // Constructor
     public Agent(int id, String name) {
         this.id = id;
         this.name = name;
     }
 
-    // Implementing Interface Methods
     @Override
     public void searchTicket() {
         System.out.println("Agent " + name + " is searching for tickets.");
