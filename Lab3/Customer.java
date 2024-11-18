@@ -6,7 +6,6 @@ public class Customer {
     private int phNo;
     private int age;
 
-    // Constructor
     public Customer(String custId, String name, String address, int phNo, int age) {
         this.custId = custId;
         this.name = name;
@@ -15,7 +14,6 @@ public class Customer {
         this.age = age;
     }
 
-    // Methods
     public void addDetails() {
         System.out.println("Details added for customer: " + name);
     }
@@ -24,7 +22,6 @@ public class Customer {
         System.out.println("Details modified for customer: " + name);
     }
 
-    // Getters and Setters
     public String getCustId() {
         return custId;
     }
