@@ -10,8 +10,8 @@ public class Ticket {
     private String busNo;
     private String seatNo;
 
-    // Constructor
-    public Ticket(String source, String destination, LocalDate dateOfJourney, LocalTime time, String busNo, String seatNo) {
+    public Ticket(String source, String destination, LocalDate dateOfJourney, 
+    LocalTime time, String busNo, String seatNo) {
         this.source = source;
         this.destination = destination;
         this.dateOfJourney = dateOfJourney;
@@ -20,7 +20,6 @@ public class Ticket {
         this.seatNo = seatNo;
     }
 
-    // Getters and Setters
     public String getSource() {
         return source;
     }
