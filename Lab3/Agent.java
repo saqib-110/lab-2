@@ -2,7 +2,6 @@ package Lab4;
 public class Agent implements CommonFunctions {
     private int id;
     private String name;
-
     public Agent(int id, String name) {
         this.id = id;
         this.name = name;
@@ -12,7 +11,6 @@ public class Agent implements CommonFunctions {
     public void searchTicket() {
         System.out.println("Agent " + name + " is searching for tickets.");
     }
-
     @Override
     public void bookTicket() {
         System.out.println("Agent " + name + " is booking tickets.");
